@@ -1,0 +1,7 @@
+C:\Users\507\Documents\Code\Unfinished\DownloadOrganiser\bin\Debug\DownloadOrganiser.exe.config
+C:\Users\507\Documents\Code\Unfinished\DownloadOrganiser\bin\Debug\DownloadOrganiser.exe
+C:\Users\507\Documents\Code\Unfinished\DownloadOrganiser\bin\Debug\DownloadOrganiser.pdb
+C:\Users\507\Documents\Code\Unfinished\DownloadOrganiser\obj\Debug\DownloadOrganiser.csprojAssemblyReference.cache
+C:\Users\507\Documents\Code\Unfinished\DownloadOrganiser\obj\Debug\DownloadOrganiser.csproj.CoreCompileInputs.cache
+C:\Users\507\Documents\Code\Unfinished\DownloadOrganiser\obj\Debug\DownloadOrganiser.exe
+C:\Users\507\Documents\Code\Unfinished\DownloadOrganiser\obj\Debug\DownloadOrganiser.pdb
