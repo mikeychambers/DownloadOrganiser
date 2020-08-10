@@ -12,7 +12,7 @@ namespace DownloadOrganiser
     {
         static void Main(string[] args)
         {
-            string[] files = Directory.GetFiles("C:\\Users\\507\\Downloads");
+            string[] files = Directory.GetFiles($"C:\\Users\\{Environment.UserName}\\Downloads");
             foreach (var item in files)
             {
                 FileInfo fi = new FileInfo(item);
@@ -20,13 +20,13 @@ namespace DownloadOrganiser
                 if (fi.Extension == ".exe" )
                 {
 
-                    File.Move(item ,@"C:\Users\507\Documents\exes\" + Path.GetFileName(item));
+                    File.Move(item ,$@"C:\Users\{Environment.UserName}\Documents\exes\" + Path.GetFileName(item));
 
                 }
 
                 if (fi.Extension == ".jpg" || fi.Extension == ".png" || fi.Extension == ".jpeg")
                 {
-                    File.Move(item, @"C:\Users\507\Pictures\" + Path.GetFileName(item));
+                    File.Move(item, $@"C:\Users\{Environment.UserName}\Pictures\" + Path.GetFileName(item));
                 }
 
             }
